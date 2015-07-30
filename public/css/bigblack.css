@@ -1,0 +1,22 @@
+body {
+    background: black;
+    color: #0D0;
+    font-size: 1.5em;
+}
+a {
+    color: #0D0;
+    text-decoration: none;
+    font-size: 1.5em;
+    font-family: arial, helvetica, sans-serif;
+}
+a:hover {
+    text-decoration: underline;
+}
+font font center a img {
+    display: none;
+    visibility: hidden;
+}
+div, table, td {
+    border-color: transparent;
+    background: transparent;
+}

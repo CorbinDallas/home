@@ -1,0 +1,34 @@
+body {
+    font-family: arial, helvetica, sans-serif;
+    font-size:1.5em;
+    background: black;
+    color: #0D0;
+}
+a {
+    color: #0D0;
+    text-decoration: underline;
+}
+.html {
+    width: 100%;
+    border: none;
+    height: 2000px;
+    margin: 0;
+}
+.subhtml {
+    width: 100%;
+    height: 300px;
+}
+.default_rssTitle {
+    font-size: 1.5em;
+    text-align: center;
+    display: block;
+}
+.default_rssDetail {
+    margin-left: 25px;
+}
+.default_rssArticleTitle {
+    margin-left: 10px;
+}
+.default_rssContainer {
+    margin-top: 35px;
+}

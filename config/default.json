@@ -1,0 +1,167 @@
+{
+    "port": 9999,
+    "layout": [
+        {
+            "title": "News",
+            "type": "rss",
+            "template": "default",
+            "options": {},
+            "source": "https://news.google.com/news/feeds?pz=1&cf=all&ned=us&hl=en&output=rss",
+            "link": "https://news.google.com/"
+        },
+        {
+            "title": "Slashdot",
+            "type": "rss",
+            "template": "default",
+            "options": {
+                "removeSlashdotBullshit": true
+            },
+            "source": "http://rss.slashdot.org/Slashdot/slashdot",
+            "link": "http://slashdot.org/"
+        },
+        {
+            "title": "Hacker News",
+            "type": "rss",
+            "template": "default",
+            "options": {
+                "scrapeLink": true
+            },
+            "source": "https://news.ycombinator.com/rss",
+            "link": "https://news.ycombinator.com"
+        },
+        {
+            "title": "Reddit",
+            "type": "rss",
+            "template": "default",
+            "options": {
+                "expanded": true
+            },
+            "source": "http://ww.reddit.com/.rss?feed=1cecab39d709e41ee44d460a1ecc28a3a54451d6&user=Coolhand2120",
+            "link": "http://www.reddit.com/"
+        },
+        {
+            "Title": "Drudge Report",
+            "type": "html",
+            "template": "default",
+            "options": {
+                "noScript": true,
+                "useCustomCssFile": "bigblack.css"
+            },
+            "source": "http://www.drudgereport.com/"
+        }
+    ],
+    "style": {
+        "0": {
+            "linkFont": "Nyala",
+            "bodyFont": "Garamond",
+            "inputFont": "Arial",
+            "inputColor": "#FFF",
+            "background": "#00467F",
+            "linkColor": "#FFE0BF",
+            "bodyColor": "#80C6FF",
+            "inputStyle": "background-color:transparent;border-top:none;border-left:none;border-right:none;border-bottom:1px dotted #777;",
+            "linkFontSize": "25px",
+            "inputFontSize": "17px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#FFC180",
+            "linkHoverColor": "#80C6FF",
+            "popupAltBackground": "#00087F"
+        },
+        "1": {
+            "linkFont": "Kalinga",
+            "bodyFont": "MoolBoran",
+            "inputFont": "Arial",
+            "inputColor": "#000",
+            "background": "#001B6A",
+            "linkColor": "#BFCFFF",
+            "bodyColor": "#809FFF",
+            "inputStyle": "",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#809FFF",
+            "linkHoverColor": "#809FFF",
+            "popupAltBackground": "#006A31"
+        },
+        "2": {
+            "linkFont": "Tw Cen MT",
+            "bodyFont": "Papyrus",
+            "inputFont": "Arial",
+            "inputColor": "#000",
+            "background": "#000",
+            "linkColor": "#FFF",
+            "bodyColor": "#FFF",
+            "inputStyle": "background-color:white;border-top:none;border-left:none;border-right:none;border-bottom:1px dotted #777;",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#FEE",
+            "linkHoverColor": "#00F",
+            "popupAltBackground": "#2A2A2A"
+        },
+        "3": {
+            "linkFont": "Levenim MT",
+            "bodyFont": "Bauhaus 93",
+            "inputFont": "Arial",
+            "inputColor": "#000",
+            "background": "#FFF",
+            "linkColor": "#006B6B",
+            "bodyColor": "#000",
+            "inputStyle": "background-color:transparent;border:solid 1px #000;",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#00248F",
+            "linkHoverColor": "#BFCFFF",
+            "popupAltBackground": "#EEEEEE"
+        },
+        "4": {
+            "linkFont": "Candara",
+            "bodyFont": "Castellar",
+            "inputFont": "Arial",
+            "inputColor": "#FFF",
+            "background": "#000",
+            "linkColor": "#5CB85C",
+            "bodyColor": "#30BFBF",
+            "inputStyle": "background-color:transparent;border-top:none;border-left:none;border-right:none;border-bottom:1px dotted #777;",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#CFE6CF",
+            "linkHoverColor": "#30BFBF",
+            "popupAltBackground": "#000"
+        },
+        "5": {
+            "linkFont": "Century Gothic",
+            "bodyFont": "Magneto",
+            "inputFont": "Arial",
+            "inputColor": "#000",
+            "background": "#FFF",
+            "linkColor": "#061E89",
+            "bodyColor": "#005F70",
+            "inputStyle": "background-color:transparent;border:solid 2px #005F70;",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#27006B",
+            "linkHoverColor": "#859BFF",
+            "popupAltBackground": "#EEE"
+        },
+        "6": {
+            "linkFont": "Gill Sans MT",
+            "bodyFont": "Eras Demi ITC",
+            "inputFont": "Arial",
+            "inputColor": "#FFF",
+            "background": "#000",
+            "linkColor": "#FFF",
+            "bodyColor": "#32B300",
+            "inputStyle": "background-color:transparent;border-top:none;border-left:none;border-right:none;border-bottom:1px dotted #777;",
+            "linkFontSize": "25px",
+            "inputFontSize": "14px",
+            "bodyFontSize": "24px",
+            "newsDetailColor": "#32B300",
+            "linkHoverColor": "#00F",
+            "popupAltBackground": "#000"
+        }
+    }
+}
